@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Shashaank Aiyer"
 author_profile: true
 redirect_from: 
   - /about/
