@@ -7,7 +7,23 @@ author_profile: true
 <style>
   body {
     font-family: Arial, sans-serif;
-    line-height: 1; /* Tighter spacing */
+    line-height: 1.2; /* Tighter spacing */
+  }
+  p {
+    margin: 4px 0; /* reduce top/bottom spacing between paragraphs */
+  }
+
+  li {
+    margin-bottom: 8px; /* smaller spacing between list items */
+  }
+
+  h1, h2 {
+    margin: 8px 0; /* reduce spacing above/below headers */
+  }
+
+  ul {
+    margin: 0; /* remove default padding around the list */
+    padding-left: 20px; /* keep indentation */
   }
 </style>
 {% if site.author.googlescholar %}
