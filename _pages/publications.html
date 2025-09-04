@@ -10,27 +10,18 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Preprints</h2>
+<p>(*) indicates equal contribution</p>
+<ul>
+  <li>
+    <strong>Active Learning via Regression Beyond Realizability</strong>
+    <p>Atul Ganju, <b>Shashaank Aiyer*</b>, Ved Sriraman*, and Karthik Sridharan</p>
+    <p><em>In Submission</em> <a href="https://arxiv.org/abs/2506.00316" target="_blank">Arxiv</a></p>
+    <p>
+      We present a new active learning framework for multiclass classification based on surrogate risk minimization that operates beyond the standard realizability assumption. Existing surrogate-based active learning algorithms crucially rely on realizability—the assumption that the optimal surrogate predictor lies within the model class—limiting their applicability in practical, misspecified settings. In this work we show that under conditions significantly weaker than realizability, as long as the class of models considered is convex, one can still obtain a label and sample complexity comparable to prior work. Despite achieving similar rates, the algorithmic approaches from prior works can be shown to fail in non-realizable settings where our assumption is satisfied. Our epoch-based active learning algorithm departs from prior methods by fitting a model from the full class to the queried data in each epoch and returning an improper classifier obtained by aggregating these models.
+    </p>
+  </li>
+</ul>
 
 
 
