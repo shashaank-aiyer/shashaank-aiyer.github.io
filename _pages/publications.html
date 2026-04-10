@@ -30,29 +30,25 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-<h1>Preprints</h2>
-<ul>
+<h1>Preprints</h1>
+<h2>2026</h2>
   <div>
-  <li>
-    <strong>Active Learning via Regression Beyond Realizability</strong>
-    <p>Atul Ganju, <u>Shashaank Aiyer*</u>, Ved Sriraman*, and Karthik Sridharan</p>
-    <p><em>In Submission</em> <a href="https://arxiv.org/abs/2506.00316" target="_blank">Arxiv</a></p>
-    <p>
-      We present a new active learning framework for multiclass classification based on surrogate risk minimization that operates beyond the standard realizability assumption. Existing surrogate-based active learning algorithms crucially rely on realizability—the assumption that the optimal surrogate predictor lies within the model class—limiting their applicability in practical, misspecified settings. In this work we show that under conditions significantly weaker than realizability, as long as the class of models considered is convex, one can still obtain a label and sample complexity comparable to prior work. Despite achieving similar rates, the algorithmic approaches from prior works can be shown to fail in non-realizable settings where our assumption is satisfied. Our epoch-based active learning algorithm departs from prior methods by fitting a model from the full class to the queried data in each epoch and returning an improper classifier obtained by aggregating these models.
-    </p>
-  </li>
-  </div>
-  <div>
-  <li>
     <strong>A Theoretical Framework for Statistical Evaluability of Generative Models</strong>
     <p><u>Shashaank Aiyer*</u>, Yishay Mansour, Shay Moran, and Han Shao</p>
     <p><em>In Submission</em> <a href="https://arxiv.org/pdf/2604.05324" target="_blank">Arxiv</a></p>
     <p>
       Statistical evaluation aims to estimate the generalization performance of a model using held-out i.i.d. test data sampled from the ground-truth distribution. In supervised learning settings such as classification, performance metrics such as error rate are well-defined, and test error reliably approximates population error given sufficiently large datasets. In contrast, evaluation is more challenging for generative models due to their open-ended nature: it is unclear which metrics are appropriate and whether such metrics can be reliably evaluated from finite samples.
 In this work, we introduce a theoretical framework for evaluating generative models and establish evaluability results for commonly used metrics. We study two categories of metrics: test-based metrics, including integral probability metrics (IPMs), and Rényi divergences. We show that IPMs with respect to any bounded test class can be evaluated from finite samples up to multiplicative and additive approximation errors. Moreover, when the test class has finite fat-shattering dimension, IPMs can be evaluated with arbitrary precision. In contrast, Rényi and KL divergences are not evaluable from finite samples, as their values can be critically determined by rare events. We also analyze the potential and limitations of perplexity as an evaluation method.
-  </li>
   </div>
-</ul>
+<h2>2025</h2>
+<div>
+    <strong>Active Learning via Regression Beyond Realizability</strong>
+    <p>Atul Ganju, <u>Shashaank Aiyer*</u>, Ved Sriraman*, and Karthik Sridharan</p>
+    <p><em>In Submission</em> <a href="https://arxiv.org/abs/2506.00316" target="_blank">Arxiv</a></p>
+    <p>
+      We present a new active learning framework for multiclass classification based on surrogate risk minimization that operates beyond the standard realizability assumption. Existing surrogate-based active learning algorithms crucially rely on realizability—the assumption that the optimal surrogate predictor lies within the model class—limiting their applicability in practical, misspecified settings. In this work we show that under conditions significantly weaker than realizability, as long as the class of models considered is convex, one can still obtain a label and sample complexity comparable to prior work. Despite achieving similar rates, the algorithmic approaches from prior works can be shown to fail in non-realizable settings where our assumption is satisfied. Our epoch-based active learning algorithm departs from prior methods by fitting a model from the full class to the queried data in each epoch and returning an improper classifier obtained by aggregating these models.
+    </p>
+  </div>
 
 
 
