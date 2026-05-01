@@ -7,12 +7,12 @@ redirect_from:
 ---
 <style>
   a {
-    color: #e21833;
-    text-decoration: none;
+    color: #e21833 !important;
+    text-decoration: none !important;
   }
   
   a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
   }
 </style>
 
