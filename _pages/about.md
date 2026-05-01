@@ -6,13 +6,21 @@ redirect_from:
   - /about.html
 ---
 <style>
-  .page__content a {
+  a {
     color: #e21833 !important;
     text-decoration: none !important;
   }
   
-  .page__content a:hover {
+  a:hover {
     text-decoration: underline !important;
+  }
+
+  .wordwrap a,
+  .masthead__menu-item:link,
+  .author__name,
+  footer a {
+    color: inherit !important;
+    text-decoration: inherit !important;
   }
 </style>
 
