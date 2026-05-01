@@ -5,6 +5,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  a {
+    color: #e21833;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
 
 Hi! I'm Shashaank, a first year CS PhD student in the [Algorithms and Theory Group](https://www.cs.umd.edu/researcharea/algorithms-and-theory) at the University of Maryland at College Park, where I am fortunate to be advised by [Han Shao](https://sites.google.com/view/hanshao/home). My research interests broadly lie in machine learning theory, and I am currently thinking about problems surrounding the underlying theory of language generation. 
 
