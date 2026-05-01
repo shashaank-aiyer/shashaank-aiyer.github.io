@@ -6,12 +6,12 @@ redirect_from:
   - /about.html
 ---
 <style>
-  a {
+  .page__content a {
     color: #e21833 !important;
     text-decoration: none !important;
   }
   
-  a:hover {
+  .page__content a:hover {
     text-decoration: underline !important;
   }
 </style>
