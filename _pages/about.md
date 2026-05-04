@@ -7,7 +7,7 @@ redirect_from:
 ---
 <style>
   .page__content a {
-    color: #e21833 !important;
+    color: #1912c7 !important;
     text-decoration: none !important;
   }
   
@@ -16,7 +16,7 @@ redirect_from:
   }
 </style>
 
-Hi! I'm Shashaank, a first year CS PhD student in the [Algorithms and Theory Group](https://www.cs.umd.edu/researcharea/algorithms-and-theory) at the University of Maryland at College Park, where I am fortunate to be advised by [Han Shao](https://sites.google.com/view/hanshao/home). My research interests broadly lie in machine learning theory, and I am currently thinking about problems surrounding the underlying theory of language generation. 
+Hi! I'm Shashaank, a first-year CS PhD student in the [Algorithms and Theory Group](https://www.cs.umd.edu/researcharea/algorithms-and-theory) at the University of Maryland at College Park, where I am fortunate to be advised by [Han Shao](https://sites.google.com/view/hanshao/home). My research interests broadly lie in machine learning theory, and I am currently thinking about problems surrounding the underlying theory of language generation. 
 
 I completed my undergraduate studies at Cornell University, where I received a BS in Computer Science and minor in Mathematics. At Cornell, I had the wonderful opportunity to work with [Karthik Sridharan](https://www.cs.cornell.edu/~sridharan/) and [Eshan Chattopadhyay](https://www.cs.cornell.edu/~eshan/) on problems relating to active learning and complexity theory, respectively. After graduating, I spent a year working as a software engineer at Capital One.
 
